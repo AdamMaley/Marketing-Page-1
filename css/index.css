@@ -223,7 +223,7 @@ nav {
 .left-main {
   display: flex;
   flex-direction: column;
-  margin: 10%;
+  margin: 5%;
 }
 
 .left-main h2 {
@@ -234,6 +234,13 @@ nav {
 .left-main p {
   text-align: center;
   margin: 3%;
+}
+
+
+.middle-main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 0 5%;
 }
 
 .right-main {

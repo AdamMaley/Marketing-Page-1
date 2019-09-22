@@ -211,3 +211,35 @@ nav {
 .right-nav li {
   margin: 2%;
 }
+/* End of Main */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main img {
+    width: 20%;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#main p {
+    font-size: 0.8em;
+    border-bottom: 2px solid #d2691e;
+    
+}
+
+.column {
+    width: 100%;
+  }
+
+/* Footer */
+footer {
+    border-top: 2px solid black;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
