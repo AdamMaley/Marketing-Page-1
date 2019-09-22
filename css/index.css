@@ -133,10 +133,88 @@ html,
 body {
   margin: auto;
   width: 90%;
-  font-family: 'tbd', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 h1,
 h2,
 h3 {
-  font-family: 'tbd', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+/* My Code */
+
+/* mobile */
+html {
+  background-color: #663399;
+}
+#main-container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.background-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  border-radius: 10%;
+  width: 20%;
+  height: 60%;
+}
+
+.button {
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #d2691e;
+  background-color: #d2691e;
+  color: #663399;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2%;
+  border: 1px solid black;
+}
+
+.left-nav h1 {
+  margin-left: 10%;
+  font-size: 2em;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.right-nav li {
+  margin: 2%;
+}
+/* End of Header and Nav */
+
+
+#left-main {
+
+}
+
+#right-main {
+  background-color: white;
 }
