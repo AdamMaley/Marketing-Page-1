@@ -197,7 +197,7 @@ nav {
 
 .left-nav h1 {
   margin-left: 10%;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .right-nav {
@@ -228,7 +228,7 @@ nav {
 
 .left-main h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .left-main p {
@@ -240,7 +240,7 @@ nav {
 .middle-main {
   display: flex;
   flex-direction: column;
-  margin: 0 5% 0 5%;
+  margin: 0 9% 0 9%;
 }
 
 .right-main {
@@ -262,4 +262,32 @@ nav {
 footer {
   border-top: 2px solid black;
   text-align: center;
+}
+
+
+/* DESKTOP MEDIA QUERY 800px and above*/
+
+@media only screen and (min-width: 800px) {
+
+  .left-nav h1 {
+    font-size: 1.8em;
+  }
+
+  .left-main h2 {
+    text-align: center;
+    font-size: 1.8em;
+  }
+}
+
+/* DESKTOP MEDIA QUERY 1000px and above*/
+@media only screen and (min-width: 1000px) {
+
+  .left-nav h1 {
+    font-size: 2em;
+  }
+
+  .left-main h2 {
+    text-align: center;
+    font-size: 2em;
+  }
 }
