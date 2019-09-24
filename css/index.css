@@ -198,6 +198,7 @@ nav {
 .left-nav h1 {
   margin-left: 10%;
   font-size: 1.2em;
+  color:#d2691e;
 }
 
 .right-nav {
@@ -212,7 +213,7 @@ nav {
   margin: 2%;
 }
 /* End of Header and Nav */
-
+/* Main */
 #main {
   display: flex;
   flex-direction: column;

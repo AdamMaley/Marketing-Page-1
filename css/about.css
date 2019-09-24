@@ -198,6 +198,7 @@ nav {
 .left-nav h1 {
   margin-left: 10%;
   font-size: 2em;
+  color:#d2691e;
 }
 
 .right-nav {
@@ -205,13 +206,13 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  .BlackPxBorder; /*<------ MIXIN------- */
 }
 
 .right-nav li {
   margin: 2%;
 }
-/* End of Main */
+/*  Main */
 
 #main {
     display: flex;
@@ -228,14 +229,46 @@ nav {
 
 #main p {
     font-size: 0.8em;
+    padding: 1%;
     border-bottom: 2px solid #d2691e;
     
 }
 
-.column {
-    width: 100%;
+/* Favorite Color Links <---*/ 
+.adamColorLink:hover {
+    background: @adamfavcolor;
+}
+
+.jacobColorLink:hover {
+    background: @jacobfavcolor;
+}
+
+.danielleColorLink:hover {
+    background: @daniellefavcolor;
+}
+
+.jamisonColorLink:hover {
+    background: @jamisonfavcolor;
+}
+
+.bonnieColorLink:hover {
+    background: @bonniefavcolor;
+}
+
+.heatherColorLink:hover {
+    background: @heatherfavcolor;
+}
+
+/* END OF FAV COLORS */
+
+  .column2 {
+    justify-content: center;
   }
 
+  .column2 a {
+    margin-left: 20%;
+}
+/*  End of Main */
 /* Footer */
 footer {
     border-top: 2px solid black;
@@ -245,12 +278,27 @@ footer {
   
   /* DESKTOP MEDIA QUERY 800px and above*/
 
-
   @media only screen and (min-width: 800px) {
-    
-  }
+
+    #main img {
+        margin-left: 40%;
+       
+    }
+
+
+    .column2 a {
+        margin-left: 35%;
+    }
 
   /* DESKTOP MEDIA QUERY 1000px and above*/
   @media only screen and (min-width: 1000px) {
-    
+    #main img {
+        margin-left: 40%;
+       
+    }
+
+
+    .column2 a {
+        margin-left: 35%;
+    }
   }
