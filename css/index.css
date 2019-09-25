@@ -253,7 +253,6 @@ nav {
   text-align: center;
   margin: 3%;
   background-color: white;
-  font-size: 1.6em;
 }
 
 .right-main h2 {
@@ -261,9 +260,11 @@ nav {
   margin: 2%;
 }
 
-.right-main input button {
+.right-main form {
   font-size: 1.6em;
 }
+
+
 
 
 
