@@ -284,11 +284,11 @@ footer {
 @media only screen and (min-width: 1000px) {
 
   .left-nav h1 {
-    font-size: 9em;
+    font-size: 3em;
   }
 
   .left-main h2 {
     text-align: center;
-    font-size: 9em;
+    font-size: 3em;
   }
 }
