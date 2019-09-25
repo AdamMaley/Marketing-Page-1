@@ -229,7 +229,7 @@ nav {
 
 .left-main h2 {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .left-main p {
@@ -251,7 +251,7 @@ nav {
 }
 
 .right-main h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 2%;
 }
 
@@ -271,12 +271,12 @@ footer {
 @media only screen and (min-width: 800px) {
 
   .left-nav h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .left-main h2 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
   }
 }
 
@@ -284,11 +284,11 @@ footer {
 @media only screen and (min-width: 1000px) {
 
   .left-nav h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   .left-main h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
