@@ -197,7 +197,7 @@ nav {
 
 .left-nav h1 {
   margin-left: 10%;
-  font-size: 2em;
+  font-size: 2rem;
   color:#d2691e;
 }
 
@@ -218,7 +218,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 1.8rem;
 }
 
 #main img {
@@ -229,7 +229,7 @@ nav {
 }
 
 #main p {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding: 1%;
     border-bottom: 2px solid #d2691e;
     
