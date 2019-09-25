@@ -235,6 +235,7 @@ nav {
 .left-main p {
   text-align: center;
   margin: 3%;
+  font-size: 2em;
 }
 
 
@@ -242,6 +243,10 @@ nav {
   display: flex;
   flex-direction: column;
   margin: 0 9% 0 9%;
+}
+
+.middle-main p{
+  font-size: 2em;
 }
 
 .right-main {
