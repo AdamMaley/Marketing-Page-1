@@ -235,6 +235,10 @@ nav {
     
 }
 
+#main a {
+    margin: 0;
+}
+
 /* Favorite Color Links <---*/ 
 .adamColorLink:hover {
     background: @adamfavcolor;
