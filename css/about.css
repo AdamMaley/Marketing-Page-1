@@ -270,7 +270,7 @@ nav {
     justify-content: center;
   }
 
-  .column2 a {
+  #main a {
     margin-left: 20%;
 }
 /*  End of Main */
@@ -291,7 +291,7 @@ footer {
     }
 
 
-    .column2 a {
+    #main a {
         margin-left: 35%;
     }
 
