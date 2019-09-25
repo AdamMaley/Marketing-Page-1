@@ -271,7 +271,7 @@ nav {
   }
 
   #main a {
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 /*  End of Main */
 /* Footer */
@@ -292,7 +292,7 @@ footer {
 
 
     #main a {
-        margin-left: 35%;
+        /* margin-left: 35%; */
     }
 
   /* DESKTOP MEDIA QUERY 1000px and above*/
