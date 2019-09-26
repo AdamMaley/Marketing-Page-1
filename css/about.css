@@ -291,6 +291,7 @@ footer {
 
     nav .left-nav {
         margin: 0 10% 0 15%;
+        align-items: center;
       }
 
     #main img {
@@ -305,9 +306,7 @@ footer {
 
   /* DESKTOP MEDIA QUERY 1000px and above*/
   @media only screen and (min-width: 1000px) {
-      ul .left-nav {
-        width: 100%;
-      }
+      
 
     #main img {
         margin-left: 40%;
