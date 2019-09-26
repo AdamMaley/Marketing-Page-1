@@ -182,7 +182,7 @@ a {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   
 }
@@ -207,7 +207,6 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  .BlackPxBorder; /*<------ MIXIN------- */
 }
 
 .right-nav li {
@@ -243,32 +242,7 @@ nav {
     margin: 0;
 }
 
-/* Favorite Color Links <---*/ 
-.adamColorLink:hover {
-    background: @adamfavcolor;
-}
 
-.jacobColorLink:hover {
-    background: @jacobfavcolor;
-}
-
-.danielleColorLink:hover {
-    background: @daniellefavcolor;
-}
-
-.jamisonColorLink:hover {
-    background: @jamisonfavcolor;
-}
-
-.bonnieColorLink:hover {
-    background: @bonniefavcolor;
-}
-
-.heatherColorLink:hover {
-    background: @heatherfavcolor;
-}
-
-/* END OF FAV COLORS */
 
   .column2 {
     justify-content: center;
@@ -306,9 +280,7 @@ footer {
   /* DESKTOP MEDIA QUERY 1000px and above*/
   @media only screen and (min-width: 1000px) {
 
-    .left-nav  {
-        justify-content: center;
-      }
+    
 
     .left-nav h1 {
         font-size: 3rem;

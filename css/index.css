@@ -140,8 +140,35 @@ h2,
 h3 {
   font-family: 'Merriweather', serif;
 }
-/* My Code */
-
+.BlackPxBorder {
+  border: 1px solid black;
+}
+.adamColorLink:hover {
+  background: #268026;
+}
+.jacobColorLink:hover {
+  background: #0b5bdb;
+}
+.danielleColorLink:hover {
+  background: #6bdb65;
+}
+.jamisonColorLink:hover {
+  background: #c6e002;
+}
+.bonnieColorLink:hover {
+  background: #db1a09;
+}
+.heatherColorLink:hover {
+  background: #d11d5c;
+}
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  /*<------ MIXIN------- */
+}
 /* mobile */
 html {
   background-color: #663399;
@@ -152,17 +179,14 @@ html {
   width: 100%;
   height: 100%;
 }
-
 .navigation {
   background-color: white;
 }
-
 .logo {
   border-radius: 10%;
   width: 20%;
   height: 60%;
 }
-
 .button {
   border-radius: 5%;
   border-style: solid;
@@ -170,38 +194,30 @@ html {
   background-color: #d2691e;
   color: black;
   margin: 2%;
-  cursor:pointer;
+  cursor: pointer;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
-
 nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
-
 .left-nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-top: 2%;
- 
 }
-
 .left-nav h1 {
   margin-left: 10%;
   font-size: 1.5rem;
-  color:#d2691e;
+  color: #d2691e;
 }
-
 .right-nav {
   display: flex;
   flex-direction: row;
@@ -209,7 +225,6 @@ nav {
   align-items: center;
   border: 1px solid black;
 }
-
 .right-nav li {
   margin: 2%;
 }
@@ -221,90 +236,61 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
 .left-main {
   display: flex;
   flex-direction: column;
   margin: 5%;
 }
-
 .left-main h2 {
   text-align: center;
   font-size: 2rem;
 }
-
 .left-main p {
   text-align: center;
   margin: 3%;
   font-size: 1.5rem;
 }
-
-
 .middle-main {
   display: flex;
   flex-direction: column;
   margin: 0 9% 0 9%;
 }
-
-.middle-main p{
+.middle-main p {
   font-size: 1.5rem;
 }
-
 .right-main {
   text-align: center;
   margin: 3%;
   background-color: white;
 }
-
 .right-main h2 {
   font-size: 2rem;
   margin: 2%;
 }
-
 .right-main form {
   font-size: 1.6rem;
 }
-
-
-
-
-
 /* End of Main */
 /* Footer */
-
 footer {
   border-top: 2px solid black;
   text-align: center;
 }
-
-
 /* DESKTOP MEDIA QUERY 800px and above*/
-
 @media only screen and (min-width: 800px) {
-
-
-  
   .left-nav h1 {
     font-size: 2rem;
   }
-
   .left-main h2 {
     text-align: center;
     font-size: 2rem;
   }
 }
-
 /* DESKTOP MEDIA QUERY 1000px and above*/
 @media only screen and (min-width: 1000px) {
-
-  .left-nav  {
-    justify-content: center;
-  }
-
   .left-nav h1 {
     font-size: 3rem;
   }
-
   .left-main h2 {
     text-align: center;
     font-size: 3rem;
