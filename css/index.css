@@ -297,7 +297,7 @@ footer {
 /* DESKTOP MEDIA QUERY 1000px and above*/
 @media only screen and (min-width: 1000px) {
 
-  ul .left-nav {
+  ul  {
     justify-content: center;
   }
 
