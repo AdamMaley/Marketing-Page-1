@@ -198,7 +198,7 @@ nav {
 
 .left-nav h1 {
   margin-left: 10%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color:#d2691e;
 }
 
@@ -288,6 +288,10 @@ footer {
   /* DESKTOP MEDIA QUERY 800px and above*/
 
   @media only screen and (min-width: 800px) {
+
+    nav .left-nav {
+        margin: 0 10% 0 15%;
+      }
 
     #main img {
         margin-left: 40%;
