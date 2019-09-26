@@ -283,10 +283,7 @@ footer {
 @media only screen and (min-width: 800px) {
 
 
-  nav .left-nav {
-    margin: 0 10% 0 15%;
-    align-items: center;
-  }
+  
   .left-nav h1 {
     font-size: 2rem;
   }
