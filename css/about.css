@@ -305,6 +305,11 @@ footer {
 
   /* DESKTOP MEDIA QUERY 1000px and above*/
   @media only screen and (min-width: 1000px) {
+
+    .left-nav h1 {
+        font-size: 3rem;
+      }
+    
       
 
     #main img {
